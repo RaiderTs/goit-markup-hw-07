@@ -1,0 +1,14 @@
+.copyright {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 2;
+    color: $footer-bottom-collor;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    &-info {
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 21px;
+    }
+}

@@ -1,0 +1,52 @@
+.benefits-nav-item {
+    .picture {
+        display: flex;
+        justify-content: center;
+        border-radius: 4px;
+        background: $color-picture;
+        border: 1px solid transparent;
+        height: 120px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    // .picture:hover,
+    // .picture:focus {
+    //     background-color: $accent-color;
+    // }
+    .picture_antenna {
+        height: 70px;
+        width: 70px;
+    }
+    .picture_clock {
+        height: 70px;
+        width: 66.96px;
+    }
+    .picture_diagram {
+        height: 53.69px;
+        width: 70px;
+    }
+    .picture_astronaut {
+        height: 70px;
+        width: 70px;
+    }
+    .title {
+        color: $page-color;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .description {
+        color: $title-text-color;
+        margin-top: 0;
+        margin-bottom: 0;
+        /* width: 278px; */
+        height: 75px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+}

@@ -1,0 +1,51 @@
+.footer {
+    background-color: $color-footer;
+    min-height: 253px;
+    &-container {
+        border-bottom: 1px solid $color-footer-strip;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 48px;
+        padding-bottom: 28px;
+        @extend %container;
+    }
+    &-logo {
+        color: $white-color;
+        text-decoration: none;
+        font-family: Raleway, sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    &-logo-title {
+        color: $accent-color;
+        transition-property: color;
+        transition: $transition;
+        &-list {
+            list-style: none;
+            font-style: normal;
+            color: $list-footer-color;
+        }
+        .address {
+            padding-top: 10px;
+            list-style: none;
+            font-style: normal;
+            color: $white-color;
+        }
+    }
+    .auth_bottom {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        padding-top: 9px;
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+}

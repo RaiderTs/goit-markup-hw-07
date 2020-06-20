@@ -1,0 +1,10 @@
+.focus {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &-container {
+        @extend %container;
+    }
+    &-title {
+        @extend %section-title;
+    }
+}
